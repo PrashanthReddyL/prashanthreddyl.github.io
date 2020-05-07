@@ -1,0 +1,227 @@
+/* filename: Prashanth Reddy
+author: Prashanth Reddy
+created: 19/03/2019 
+last modified: 28/04/2019
+description: The following css file refers to 4 HTML files, namely: 1) index.html  2) jobs.html 3) apply.html 4) about.html. */
+
+body
+{
+background-image: url("images/Image.jpg"); /* the Image.jpg isused as the backgroung image for all the 4 pages.*/		
+font-size:24px; /*font size is set to 24px*/
+color:white; /*font color is set to white*/
+font-family:Calibri; /*font family is set to Calibri*/
+} 
+
+.logo img{
+padding:10px 10px 25px 20px; /*padding on all 4 sides is set respectively */
+display:inline-block; /* inline-block allows to use paddings and margins on the elements*/
+width:180px; /*width of the logo is set to 180px*/
+height:180px; /*height of the logo is set to 180px*/
+}
+
+#top {								/*styling for id=top*/
+width: 100%;
+position: relative;
+height: 30px;
+}
+h1{
+color:yellow;
+}
+#header {							/*styling for id=header*/
+margin: 0px auto 20px 210px;
+text-align:left;
+color:yellow;
+height: 50px;
+position:relative;
+font-size:30px;
+}
+
+.main ul li{						/* styling for menu options*/
+margin: 20px 100px 0px 50px;
+}
+
+.Menu{								/*styling for the menu bar*/
+background-color: green;			/* setting background-color of menu bar to green*/
+overflow: hidden;	  				/* overflow hidden is used to limit space occupied by the menu content, so the other elements are not affected */				 					
+position:relative;					/* relative is used to place an element relative to its actual position on the page*/
+margin: 20px 20px 20px 210px;
+}
+
+.Menu a:hover {
+background-color: #ffffff;			/* displays white colour when pointer is placed on menu options*/
+color: #EEA200;						/* color of menu text when pointer is placed on it*/
+}
+
+.Menu a{							/* styling for menu list*/
+float: left;
+color: #f2f2f2;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px; 
+margin: auto 20px auto 20px;  
+}
+
+h2{									/* styling for h2 elements*/
+margin: auto auto 20px 20px;
+color: orange; 
+}
+
+h4{									/* styling for h4 elements*/
+color: skyblue; 
+}
+
+h3{
+margin: auto auto auto 80px;
+color: skyblue; 	
+}
+
+aside{								/*styling for the content in aside tags*/
+float: right;
+font-family:Calibri;
+font-size: 20px; 
+border-color: green;
+margin:30px auto auto 80px;
+}
+
+aside p strong{					/*styling for elements in list with in <strong> tags*/
+text-decoration: underline;
+color: pink;
+margin:auto auto auto auto;	
+}
+
+.content{							/* styling fo content in about.html page*/
+margin: 20px 290px auto 20px;
+float:right;
+}
+
+.formcontent{						/* styling for form in apply.html page*/
+margin: 20px auto auto 360px;	
+}
+
+.homecontent{						/* styling for the content in index.html page*/
+margin: 20px auto auto 40px;
+font-size: 20px;
+}
+
+.button{							/* styling for apply button below the form*/
+background: yellow; 
+color: black;
+border-style: outset;
+border-color: #0066A2;
+height: 50px;
+width: 180px;
+margin: 20px auto 20px 320px;
+border-radius: 45px; 
+font: 30px Calibri;
+}
+
+.button:hover {						/* to change the color of apply button when pointer moves over it*/
+background-color: #ffffff;
+color: #EEA200;  
+}
+
+table, th, td{						/* styling for timetable in about page*/
+font: 18px Calibri;
+text-align: left;
+border: 1px solid white;
+margin: 20px auto auto 40px;	
+}
+
+.timetable{
+margin: 10px auto 20px 40px;
+}
+
+#photo {							/* styling for photo in about page*/
+float: left;
+margin: 70px auto auto 40px;
+overflow: hidden;
+width:290px;
+height:290px;
+}
+
+#main {
+overflow: hidden;
+}
+
+#homephoto {						/* styling for photo in home page i.e., index.html */
+float: left;
+margin: 70px auto auto 40px;
+overflow: hidden;
+width:290px;
+height:290px;
+}
+
+#jobimage							/* styling for the image placed in jobs.html page */
+{
+margin: 20px 20px auto 340px;
+width:650px;
+height:350px;
+overflow: hidden;
+}
+
+footer {							/* styling for footer in jobs page */ 
+clear: both;
+position: relative;
+height: 50px;
+margin-top: -40px;
+background-color: orange;
+color: white;
+text-align: center;
+font-size:15px;
+color: black;
+}
+
+fieldset{							/* styling for fieldset used in form for gender input */
+float:left;
+}
+
+.applynow{							/* styling for the buttons placed on jobs page below the job description */
+background: yellow; 
+color: black;
+border-style: outset;
+border-color: #0066A2;
+height: 50px;
+width: 180px;
+margin: auto 20px 30px 520px;
+border-radius: 45px; 
+font: 30px Calibri;
+}
+
+#error1{							/* styling for the error messages that appear on apply page */
+	color:red;
+	font: 20px Calibri;
+	font-style: italic;
+	background-color: white;
+	margin: auto 500px 10px auto;
+}
+
+#error2{							/* styling for the error messages that appear on apply page */	
+	color:red;
+	font: 20px Calibri;
+	font-style: italic;
+	background-color: white;
+	margin: auto 500px auto auto;
+}
+
+#error3{							/* styling for the error messages that appear on apply page */
+	color:red;
+	font: 20px Calibri;
+	font-style: italic;
+	background-color: white;
+	margin: auto 500px auto auto;
+}
+
+.enhancement{							/* styling for the button placed on enhancements page. */
+background: orange; 
+color: black;
+border-style: outset;
+border-color: #0066A2;
+height: 50px;
+width: 100px;
+margin: auto 20px 30px 520px;
+border-radius: 45px; 
+font: 15px Calibri;
+}
+
+
+
